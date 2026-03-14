@@ -1,0 +1,298 @@
+# Lesson 04 - If, elif and else
+
+This README contains **two languages**:
+
+English  
+Español
+
+```text
+⚠️ This Python work will not be available in my repository.
+
+The explanation is based on one of my older Programming I exercises.
+I will use it as an example to explain how conditional statements work in Python.
+```
+
+# español
+⚠️ Este trabajo de Python no estará disponible en mi repositorio.
+
+La explicación se basa en uno de mis ejercicios anteriores de Programación I.
+Lo usaré como ejemplo para explicar cómo funcionan las declaraciones condicionales en Python.
+
+---
+
+# English section
+
+```text
+👋 Hello.
+
+This is Programming I level, and in this README I will explain how
+the conditional structures "if", "elif" and "else" work in Python.
+
+Even though the example program mainly uses "if" and "else",
+I will also explain how "elif" works.
+
+The original idea of the program is to check if a year is a leap year.
+```
+
+---
+
+```text
+ What is an "if" statement?
+
+The "if" statement allows a program to make decisions.
+
+The program checks a condition.
+
+If the condition is true,
+a block of code will execute.
+```
+
+Example idea:
+
+```python
+if year % 4 == 0:
+    return True
+else:
+    return False
+```
+
+```text
+ In this example the program checks:
+
+Is the year divisible by 4?
+
+If yes → it returns True  
+If no → it returns False
+
+This is a simple decision structure.
+```
+
+---
+
+```text
+ What is "elif"?
+
+"elif" means "else if".
+
+It is used when we want to check multiple conditions.
+
+Instead of writing many separate if statements,
+we chain them together.
+```
+
+Example idea:
+
+```python
+if number > 10:
+    print("Greater than 10")
+elif number == 10:
+    print("Equal to 10")
+else:
+    print("Less than 10")
+```
+
+```text
+ How it works:
+
+First the program checks the "if".
+
+If it is not true,
+Python checks the "elif".
+
+If none of the conditions are true,
+the "else" block executes.
+```
+
+---
+
+```text
+What does "else" do?
+
+The "else" block runs when
+none of the previous conditions are true.
+
+It acts like a fallback option.
+```
+
+Example idea:
+
+```python
+if condition:
+    do_something()
+else:
+    do_something_else()
+```
+
+---
+
+```text
+ Why this concept is important
+
+Conditional logic is one of the most fundamental ideas in programming.
+
+Programs constantly make decisions based on data.
+
+Examples include:
+
+• checking user input
+• validating data
+• controlling program flow
+• handling different situations
+```
+
+---
+
+```text
+ Personal note
+
+This example comes from an early Programming I exercise.
+
+Even though the program is simple,
+it shows how programs can analyze data
+and react depending on conditions.
+
+Understanding "if", "elif", and "else"
+is one of the most important foundations
+when learning programming.
+```
+
+---
+
+# == ESPAÑOL ==
+
+```text
+👋 Hola.
+
+Esto es nivel Programación I, y en este README explicaré
+cómo funcionan las estructuras condicionales
+"if", "elif" y "else" en Python.
+
+Aunque el programa de ejemplo utiliza principalmente
+"if" y "else", también explicaré cómo funciona "elif".
+
+La idea original del programa es verificar
+si un año es bisiesto.
+```
+
+---
+
+```text
+ ¿Qué es un "if"?
+
+La estructura "if" permite que un programa
+tome decisiones.
+
+El programa evalúa una condición.
+
+Si la condición es verdadera,
+se ejecuta un bloque de código.
+```
+
+Ejemplo de idea:
+
+```python
+if año % 4 == 0:
+    return True
+else:
+    return False
+```
+
+```text
+ En este ejemplo el programa verifica:
+
+¿El año es divisible entre 4?
+
+Si sí → devuelve True  
+Si no → devuelve False
+```
+
+---
+
+```text
+ ¿Qué es "elif"?
+
+"elif" significa "else if".
+
+Se usa cuando queremos evaluar
+varias condiciones diferentes.
+
+En lugar de escribir muchos if separados,
+los encadenamos.
+```
+
+Ejemplo:
+
+```python
+if numero > 10:
+    print("Mayor que 10")
+elif numero == 10:
+    print("Igual a 10")
+else:
+    print("Menor que 10")
+```
+
+```text
+ Cómo funciona:
+
+Primero se evalúa el "if".
+
+Si no se cumple,
+Python evalúa el "elif".
+
+Si ninguna condición se cumple,
+se ejecuta el bloque "else".
+```
+
+---
+
+```text
+ ¿Qué hace "else"?
+
+El bloque "else" se ejecuta
+cuando ninguna condición anterior es verdadera.
+
+Funciona como una opción final.
+```
+
+Ejemplo:
+
+```python
+if condicion:
+    hacer_algo()
+else:
+    hacer_otra_cosa()
+```
+
+---
+
+```text
+ Por qué este concepto es importante
+
+La lógica condicional es una de las bases
+más importantes de la programación.
+
+Los programas toman decisiones constantemente.
+
+Por ejemplo:
+
+• validar datos del usuario
+• controlar el flujo del programa
+• reaccionar a diferentes situaciones
+```
+
+---
+
+```text
+ Nota personal
+
+Este ejemplo proviene de un ejercicio
+de Programación I.
+
+Aunque es un programa sencillo,
+muestra cómo un programa puede analizar datos
+y tomar decisiones dependiendo de condiciones.
+
+Entender "if", "elif" y "else"
+es una de las bases más importantes
+para aprender programación.
+```
